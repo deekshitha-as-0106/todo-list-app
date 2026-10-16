@@ -59,7 +59,7 @@ ul li::before{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background-color: #eb80c4;
+    background-color: #eeebed;
     left:15px;
     top: 50%;
     transform: translateY(-50%);
@@ -86,4 +86,14 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 
+}
+
+ul li.checked::before {
+    content: '\2713';
+    color: white;
+    background-color: #36991b;
+    border-color: #36991b;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
 }
